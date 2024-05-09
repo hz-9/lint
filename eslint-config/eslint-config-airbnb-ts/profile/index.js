@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 17:00:00
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-09 21:45:05
+ * @LastEditTime : 2024-05-09 22:22:43
  * @Description  : 整合配置规则。
  */
 
@@ -13,18 +13,7 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx', '*.cts', '*.mts'],
 
-      extends: [
-        'eslint-config-airbnb-typescript/lib/shared',
-
-        '../rules/best-practices',
-        '../rules/errors',
-        '../rules/es6',
-        '../rules/imports',
-        '../rules/node',
-        '../rules/strict',
-        '../rules/style',
-        '../rules/variables',
-      ].map(require.resolve),
+      extends: ['eslint-config-airbnb-typescript/lib/shared', '../rules/all'].map(require.resolve),
 
       rules: {
         // ...

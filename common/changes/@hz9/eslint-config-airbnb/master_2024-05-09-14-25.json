@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz9/eslint-config-airbnb",
+      "comment": "docs: change description in filesheader",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@hz9/eslint-config-airbnb"
+}

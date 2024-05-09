@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz9/eslint-config-airbnb-ts",
+      "comment": "feat: support `Rushstack` project",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@hz9/eslint-config-airbnb-ts"
+}
