@@ -2,6 +2,32 @@
   "name": "@hz9/eslint-config-airbnb",
   "entries": [
     {
+      "version": "0.1.1",
+      "tag": "@hz9/eslint-config-airbnb_v0.1.1",
+      "date": "Thu, 09 May 2024 14:25:59 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "docs: change `package.json`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "0692fd8bdddecb228080711c1244a17ff05593b7"
+          },
+          {
+            "comment": "docs: change `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "7653c52abc239b6d96f187393eff87bdf1064600"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "docs: change description in filesheader",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "f8706c76b492817fbb31e81c9914070057016b99"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.0",
       "tag": "@hz9/eslint-config-airbnb_v0.1.0",
       "date": "Thu, 09 May 2024 10:27:29 GMT",
