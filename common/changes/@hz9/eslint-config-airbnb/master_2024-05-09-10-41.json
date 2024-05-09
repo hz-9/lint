@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz9/eslint-config-airbnb",
+      "comment": "docs: change `README.md`",
+      "type": "none"
+    }
+  ],
+  "packageName": "@hz9/eslint-config-airbnb"
+}
