@@ -1,0 +1,37 @@
+{
+  "name": "@hz9/eslint-config-airbnb",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./profile/index.js",
+  "exports": {
+    ".": "./profile/index.js",
+    "./package.json": "./package.json",
+    "./index.js": "./profile/index.js",
+    "./index": "./profile/index.js",
+    "./node": "./profile/node.js",
+    "./browser": "./profile/browser.js",
+    "./*": "./*.js"
+  },
+  "scripts": {
+    "build": " "
+  },
+  "author": "",
+  "license": "",
+  "files": [
+    "profile",
+    "rules",
+    "index.js",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  }
+}

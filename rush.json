@@ -472,5 +472,11 @@
     //   "reviewCategory": "tools",
     //   "tags": ["tools"]
     // }
+
+    {
+      "packageName": "@hz9/eslint-config-airbnb",
+      "projectFolder": "eslint-config/eslint-config-airbnb",
+      "shouldPublish": true
+    }
   ]
 }
