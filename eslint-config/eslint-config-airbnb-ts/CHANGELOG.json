@@ -2,6 +2,20 @@
   "name": "@hz9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.2.2",
+      "tag": "@hz9/eslint-config-airbnb-ts_v0.2.2",
+      "date": "Thu, 09 May 2024 14:43:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: remove plugin and parse on `Rushstack` project",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "2ce3adc94323983a20886858fe3a43536faf5e80"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.1",
       "tag": "@hz9/eslint-config-airbnb-ts_v0.2.1",
       "date": "Thu, 09 May 2024 14:32:12 GMT",

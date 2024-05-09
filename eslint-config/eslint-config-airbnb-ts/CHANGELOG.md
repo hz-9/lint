@@ -1,6 +1,13 @@
 # Change Log - @hz9/eslint-config-airbnb-ts
 
-This log was last generated on Thu, 09 May 2024 14:32:12 GMT and should not be manually modified.
+This log was last generated on Thu, 09 May 2024 14:43:49 GMT and should not be manually modified.
+
+## 0.2.2
+Thu, 09 May 2024 14:43:49 GMT
+
+### Patches
+
+- fix: remove plugin and parse on `Rushstack` project
 
 ## 0.2.1
 Thu, 09 May 2024 14:32:12 GMT
