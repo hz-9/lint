@@ -1,6 +1,13 @@
 # Change Log - @hz9/eslint-config-airbnb-ts
 
-This log was last generated on Thu, 09 May 2024 14:25:59 GMT and should not be manually modified.
+This log was last generated on Thu, 09 May 2024 14:32:12 GMT and should not be manually modified.
+
+## 0.2.1
+Thu, 09 May 2024 14:32:12 GMT
+
+### Patches
+
+- fix: add `profile/modern-module-resolution.js`
 
 ## 0.2.0
 Thu, 09 May 2024 14:25:59 GMT

@@ -2,6 +2,20 @@
   "name": "@hz9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.2.1",
+      "tag": "@hz9/eslint-config-airbnb-ts_v0.2.1",
+      "date": "Thu, 09 May 2024 14:32:12 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: add `profile/modern-module-resolution.js`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "f8e4b2baf466d6b71bc40cb01354682783d6c42c"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.0",
       "tag": "@hz9/eslint-config-airbnb-ts_v0.2.0",
       "date": "Thu, 09 May 2024 14:25:59 GMT",
