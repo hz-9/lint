@@ -9,7 +9,9 @@
     "./index.js": "./profile/index.js",
     "./index": "./profile/index.js",
     "./node": "./profile/node.js",
+    "./node-rushstack": "./profile/node-rushstack.js",
     "./browser": "./profile/browser.js",
+    "./browser-rushstack": "./profile/browser-rushstack.js",
     "./modern-module-resolution": "./profile/modern-module-resolution.js",
     "./*": "./*.js"
   },
