@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz9/eslint-config-airbnb",
+      "comment": "docs: change `package.json`",
+      "type": "none"
+    }
+  ],
+  "packageName": "@hz9/eslint-config-airbnb"
+}

@@ -477,6 +477,12 @@
       "packageName": "@hz9/eslint-config-airbnb",
       "projectFolder": "eslint-config/eslint-config-airbnb",
       "shouldPublish": true
+    },
+
+    {
+      "packageName": "@hz9/eslint-config-airbnb-ts",
+      "projectFolder": "eslint-config/eslint-config-airbnb-ts",
+      "shouldPublish": true
     }
   ]
 }
