@@ -2,6 +2,20 @@
   "name": "@hz9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.3.1",
+      "tag": "@hz9/eslint-config-airbnb-ts_v0.3.1",
+      "date": "Thu, 09 May 2024 16:19:29 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: reduce `typescript-eslint` to `6.0.0`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "d9f1d1f8230e9bf28ee4c3f40760f4ebe3077fb7"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.0",
       "tag": "@hz9/eslint-config-airbnb-ts_v0.3.0",
       "date": "Thu, 09 May 2024 15:47:35 GMT",
