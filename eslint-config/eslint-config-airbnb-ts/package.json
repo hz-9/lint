@@ -10,6 +10,7 @@
     "./index": "./profile/index.js",
     "./node": "./profile/node.js",
     "./browser": "./profile/browser.js",
+    "./modern-module-resolution": "./profile/modern-module-resolution.js",
     "./*": "./*.js"
   },
   "scripts": {
