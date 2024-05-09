@@ -2,6 +2,20 @@
   "name": "@hz9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.3.0",
+      "tag": "@hz9/eslint-config-airbnb-ts_v0.3.0",
+      "date": "Thu, 09 May 2024 15:47:35 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: upgrade typescript to 5.0.0",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "fbbf1378aa045a8accfa116a3852a37be9eade6f"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.2",
       "tag": "@hz9/eslint-config-airbnb-ts_v0.2.2",
       "date": "Thu, 09 May 2024 14:43:49 GMT",
