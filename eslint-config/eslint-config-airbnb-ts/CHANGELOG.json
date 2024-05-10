@@ -2,6 +2,20 @@
   "name": "@hz9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.3.2",
+      "tag": "@hz9/eslint-config-airbnb-ts_v0.3.2",
+      "date": "Fri, 10 May 2024 06:54:11 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: limit typescript version to `>=5.0.0 <5.4.0`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "5f7afdeaa79631a2809375fdacb6cbba28e70473"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.1",
       "tag": "@hz9/eslint-config-airbnb-ts_v0.3.1",
       "date": "Thu, 09 May 2024 16:19:29 GMT",

@@ -1,6 +1,13 @@
 # Change Log - @hz9/eslint-config-airbnb-ts
 
-This log was last generated on Thu, 09 May 2024 16:19:29 GMT and should not be manually modified.
+This log was last generated on Fri, 10 May 2024 06:54:11 GMT and should not be manually modified.
+
+## 0.3.2
+Fri, 10 May 2024 06:54:11 GMT
+
+### Patches
+
+- fix: limit typescript version to `>=5.0.0 <5.4.0`
 
 ## 0.3.1
 Thu, 09 May 2024 16:19:29 GMT
