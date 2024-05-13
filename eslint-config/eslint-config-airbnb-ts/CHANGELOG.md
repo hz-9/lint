@@ -1,6 +1,13 @@
 # Change Log - @hz9/eslint-config-airbnb-ts
 
-This log was last generated on Fri, 10 May 2024 06:54:11 GMT and should not be manually modified.
+This log was last generated on Mon, 13 May 2024 13:59:57 GMT and should not be manually modified.
+
+## 0.4.0
+Mon, 13 May 2024 13:59:57 GMT
+
+### Minor changes
+
+- change rules
 
 ## 0.3.2
 Fri, 10 May 2024 06:54:11 GMT

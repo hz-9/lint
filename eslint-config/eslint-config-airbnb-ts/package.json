@@ -1,6 +1,6 @@
 {
   "name": "@hz9/eslint-config-airbnb-ts",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "",
   "main": "./profile/index.js",
   "exports": {
