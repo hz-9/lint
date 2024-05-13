@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 22:05:50
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-09 22:11:03
+ * @LastEditTime : 2024-05-10 17:15:03
  */
 
 const { rules: hz9AirbnbImportsRules } = require('@hz9/eslint-config-airbnb/rules/imports')
@@ -31,5 +31,12 @@ module.exports = {
     // disallow declaration of variables already declared in the outer scope
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
+
+    '@typescript-eslint/no-floating-promises': [
+      'error',
+      {
+        ignoreIIFE: true,
+      },
+    ],
   },
 }

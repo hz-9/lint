@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 17:00:00
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-09 22:39:41
+ * @LastEditTime : 2024-05-13 21:58:57
  * @Description  : 用于 Node.js 运行时，针对 TypeScript 的 Eslint 配置规则。并添加了对 Rushstack 环境的支持。
  */
 
@@ -10,7 +10,7 @@
 require('@rushstack/eslint-config/patch/modern-module-resolution')
 
 module.exports = {
-  extends: ['@rushstack/eslint-config/profile/node', './index-no-parse'].map(require.resolve),
+  extends: ['@rushstack/eslint-config/profile/node', './index-no-parse', '../rules/rush'].map(require.resolve),
   env: {
     browser: false,
     node: true,

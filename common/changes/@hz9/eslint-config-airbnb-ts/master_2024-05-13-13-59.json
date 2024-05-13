@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz9/eslint-config-airbnb-ts",
+      "comment": "change rules",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@hz9/eslint-config-airbnb-ts"
+}

@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 17:00:00
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-09 18:08:46
+ * @LastEditTime : 2024-05-13 21:57:29
  * @Description  : 继承 eslint-config-airbnb-base/rules/imports.js 并重写。
  */
 
@@ -54,5 +54,8 @@ module.exports = {
     'import/prefer-default-export': 'off',
 
     'import/no-extraneous-dependencies': importNoExtraneousDependencies,
+
+    // https://github.com/import-js/eslint-plugin-import/blob/v2.29.1/docs/rules/newline-after-import.md
+    'import/newline-after-import': 'off',
   },
 }

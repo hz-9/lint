@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 17:00:00
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-09 17:48:14
+ * @LastEditTime : 2024-05-11 21:19:44
  * @Description  : 继承 eslint-config-airbnb-base/rules/style.js 并重写。
  */
 
@@ -76,5 +76,10 @@ module.exports = {
     // 在链中的每个方法调用之后强制执行新行，以使其更具可读性和易于维护
     // 因考虑到与 Prettier 共存调整此规则
     'newline-per-chained-call': 'off',
+
+    // https://eslint.org/docs/latest/rules/semi-style/
+    // Enforce location of semicolons
+    // 强制分号的位置
+    'semi-style': 'off',
   },
 }
