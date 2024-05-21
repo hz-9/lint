@@ -1,6 +1,13 @@
 # Change Log - @hz9/eslint-config-airbnb-ts
 
-This log was last generated on Mon, 13 May 2024 13:59:57 GMT and should not be manually modified.
+This log was last generated on Tue, 21 May 2024 04:00:47 GMT and should not be manually modified.
+
+## 0.4.1
+Tue, 21 May 2024 04:00:47 GMT
+
+### Patches
+
+- fix: resolve `rushstack` and `aitbnb-typescript` conflicts
 
 ## 0.4.0
 Mon, 13 May 2024 13:59:57 GMT

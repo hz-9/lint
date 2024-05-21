@@ -2,6 +2,20 @@
   "name": "@hz9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.4.1",
+      "tag": "@hz9/eslint-config-airbnb-ts_v0.4.1",
+      "date": "Tue, 21 May 2024 04:00:47 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: resolve `rushstack` and `aitbnb-typescript` conflicts",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "310f8fff9cbc642c8529e212ad8cdffa29aff21b"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.4.0",
       "tag": "@hz9/eslint-config-airbnb-ts_v0.4.0",
       "date": "Mon, 13 May 2024 13:59:57 GMT",
