@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 22:05:50
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-10 17:15:03
+ * @LastEditTime : 2024-05-14 16:36:00
  */
 
 const { rules: hz9AirbnbImportsRules } = require('@hz9/eslint-config-airbnb/rules/imports')
@@ -36,6 +36,13 @@ module.exports = {
       'error',
       {
         ignoreIIFE: true,
+      },
+    ],
+
+    '@typescript-eslint/parameter-properties': [
+      'warn',
+      {
+        allow: ['public', 'public readonly', 'protected', 'protected readonly', 'private', 'private readonly'],
       },
     ],
   },
