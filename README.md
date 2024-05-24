@@ -1,4 +1,4 @@
-# HZ9 Lint
+# JavaScript Lint
 
 ## 简介
 
