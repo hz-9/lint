@@ -2,6 +2,20 @@
   "name": "@hz-9/eslint-config-airbnb",
   "entries": [
     {
+      "version": "0.3.4",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.4",
+      "date": "Tue, 11 Jun 2024 11:56:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: upgrade `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "69b5050b5a8203a593ae754c70e782d6f262a97d"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.3",
       "tag": "@hz-9/eslint-config-airbnb_v0.3.3",
       "date": "Tue, 11 Jun 2024 04:01:35 GMT",
