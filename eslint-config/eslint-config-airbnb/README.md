@@ -1,5 +1,33 @@
 # @hz-9/eslint-config-airbnb
 
-`@hz-9/eslint-config-airbnb` 是基于 `eslint-config-airbnb-base` 根据个人开发习惯调整的规则。
+A `eslint` config for for 'hz-9' (JavaScript).
 
-当然 `@hz-9/eslint-config-airbnb` 要求，必须有 `Prettier` 的陪伴。
+![NPM Version][npm-version-url] ![NPM License][npm-license-url] ![NPM Downloads][npm-downloads-url]
+
+[npm-version-url]: https://img.shields.io/npm/v/@hz-9/eslint-config-airbnb
+[npm-license-url]: https://img.shields.io/npm/l/@hz-9/eslint-config-airbnb
+[npm-downloads-url]: https://img.shields.io/npm/d18m/@hz-9/eslint-config-airbnb
+
+## Installation
+
+``` bash
+npm install @hz-9/eslint-config-airbnb --save-dev
+```
+
+## Usage
+
+Add to `.eslintrc.js`:
+
+``` js
+module.exports = {
+  extends: [
+    '@hz-9/eslint-config-airbnb'
+  ],
+}
+```
+
+Then run
+
+``` bash
+eslint --fix .
+```

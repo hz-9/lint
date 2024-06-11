@@ -6,6 +6,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "engines": {
+    "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hz-9/lint",
+    "directory": "eslint-config/eslint-config-airbnb-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/hz-9/lint/issues"
+  },
   "exports": {
     ".": "./profile/index.js",
     "./package.json": "./package.json",
@@ -21,7 +32,7 @@
   "scripts": {
     "build": " "
   },
-  "author": "Chen Zhen",
+  "author": "Chen Zhen <heavenzhen999@163.com>",
   "license": "MIT",
   "files": [
     "profile",
