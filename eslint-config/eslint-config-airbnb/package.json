@@ -1,36 +1,27 @@
 {
   "name": "@hz-9/eslint-config-airbnb",
   "version": "0.3.2",
-  "description": "A `eslint` config for for 'hz-9'",
-  "main": "./profile/index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"
+  "description": "A eslint config for for 'hz-9' (JavaScript)",
+  "bugs": {
+    "url": "https://github.com/hz-9/lint/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hz-9/lint",
     "directory": "eslint-config/eslint-config-airbnb"
   },
-  "bugs": {
-    "url": "https://github.com/hz-9/lint/issues"
-  },
+  "license": "MIT",
+  "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
     ".": "./profile/index.js",
-    "./package.json": "./package.json",
-    "./index.js": "./profile/index.js",
-    "./index": "./profile/index.js",
-    "./node": "./profile/node.js",
     "./browser": "./profile/browser.js",
+    "./index": "./profile/index.js",
+    "./index.js": "./profile/index.js",
+    "./node": "./profile/node.js",
+    "./package.json": "./package.json",
     "./*": "./*.js"
   },
-  "scripts": {
-    "build": " "
-  },
-  "author": "Chen Zhen <heavenzhen999@163.com>",
-  "license": "MIT",
+  "main": "./profile/index.js",
   "files": [
     "profile",
     "rules",
@@ -38,8 +29,8 @@
     "CHANGELOG.md",
     "README.md"
   ],
-  "peerDependencies": {
-    "eslint": "^8.2.0"
+  "scripts": {
+    "build": " "
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
@@ -47,5 +38,14 @@
   },
   "devDependencies": {
     "eslint": "^8.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
