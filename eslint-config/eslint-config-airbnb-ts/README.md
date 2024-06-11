@@ -35,3 +35,13 @@ Then run
 ``` bash
 eslint --fix .
 ```
+
+## PeerDependencies versions
+
+### typescript
+
+Now all `@hz-9/*` use the `typescript@5.3.3`, set `>=5.0.0 <5.4.0` for better compatibility.
+
+### eslint
+
+Now all `@hz-9/*` use the `eslint@8.2.0`.

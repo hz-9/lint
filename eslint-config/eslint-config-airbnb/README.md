@@ -32,3 +32,9 @@ Then run
 ``` bash
 eslint --fix .
 ```
+
+## PeerDependencies versions
+
+### eslint
+
+Now all `@hz-9/*` use the `eslint@8.2.0`.
