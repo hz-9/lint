@@ -43,8 +43,6 @@ jobs:
         uses: advancedcsg-open/actions-rush@v1.6.2
       - name: Install @hz-9/docs-build
         run: npm install -g @hz-9/docs-build
-      - name: Install dependencies
-        run: rush update
       - name: Build docs
         run: docs-build --action build
       - name: Upload artifact
