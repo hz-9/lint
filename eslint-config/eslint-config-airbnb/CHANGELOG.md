@@ -1,6 +1,13 @@
 # Change Log - @hz-9/eslint-config-airbnb
 
-This log was last generated on Mon, 13 May 2024 13:59:57 GMT and should not be manually modified.
+This log was last generated on Tue, 11 Jun 2024 01:33:52 GMT and should not be manually modified.
+
+## 0.3.0
+Tue, 11 Jun 2024 01:33:52 GMT
+
+### Minor changes
+
+- feat: change scope `@hz9` -> `@hz-9`
 
 ## 0.2.0
 Mon, 13 May 2024 13:59:57 GMT

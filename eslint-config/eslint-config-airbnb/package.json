@@ -1,8 +1,11 @@
 {
   "name": "@hz-9/eslint-config-airbnb",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "./profile/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./profile/index.js",
     "./package.json": "./package.json",

@@ -2,6 +2,25 @@
   "name": "@hz-9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.5.0",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.5.0",
+      "date": "Tue, 11 Jun 2024 01:33:52 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: change scope `@hz9` -> `@hz-9`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "811f9ad6488ceb06783a56f75cd1d66e42c17494"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@hz-9/eslint-config-airbnb\" to `0.3.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.4.1",
       "tag": "@hz-9/eslint-config-airbnb-ts_v0.4.1",
       "date": "Tue, 21 May 2024 04:00:47 GMT",
