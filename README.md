@@ -1,4 +1,4 @@
-# JavaScript Lint
+# HZ 9 Lint
 
 ## Introduction
 
