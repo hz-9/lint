@@ -1,6 +1,13 @@
 # Change Log - @hz-9/eslint-config-airbnb
 
-This log was last generated on Tue, 11 Jun 2024 01:33:52 GMT and should not be manually modified.
+This log was last generated on Tue, 11 Jun 2024 02:09:32 GMT and should not be manually modified.
+
+## 0.3.1
+Tue, 11 Jun 2024 02:09:32 GMT
+
+### Patches
+
+- feat: add some properties to `package.json` and write `README.md`
 
 ## 0.3.0
 Tue, 11 Jun 2024 01:33:52 GMT
