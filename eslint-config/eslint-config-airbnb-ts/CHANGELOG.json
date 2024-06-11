@@ -1,9 +1,9 @@
 {
-  "name": "@hz9/eslint-config-airbnb-ts",
+  "name": "@hz-9/eslint-config-airbnb-ts",
   "entries": [
     {
       "version": "0.4.1",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.4.1",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.4.1",
       "date": "Tue, 21 May 2024 04:00:47 GMT",
       "comments": {
         "patch": [
@@ -17,7 +17,7 @@
     },
     {
       "version": "0.4.0",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.4.0",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.4.0",
       "date": "Mon, 13 May 2024 13:59:57 GMT",
       "comments": {
         "minor": [
@@ -29,14 +29,14 @@
         ],
         "dependency": [
           {
-            "comment": "Updating dependency \"@hz9/eslint-config-airbnb\" to `0.2.0`"
+            "comment": "Updating dependency \"@hz-9/eslint-config-airbnb\" to `0.2.0`"
           }
         ]
       }
     },
     {
       "version": "0.3.2",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.3.2",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.3.2",
       "date": "Fri, 10 May 2024 06:54:11 GMT",
       "comments": {
         "patch": [
@@ -50,7 +50,7 @@
     },
     {
       "version": "0.3.1",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.3.1",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.3.1",
       "date": "Thu, 09 May 2024 16:19:29 GMT",
       "comments": {
         "patch": [
@@ -64,7 +64,7 @@
     },
     {
       "version": "0.3.0",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.3.0",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.3.0",
       "date": "Thu, 09 May 2024 15:47:35 GMT",
       "comments": {
         "minor": [
@@ -78,7 +78,7 @@
     },
     {
       "version": "0.2.2",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.2.2",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.2.2",
       "date": "Thu, 09 May 2024 14:43:49 GMT",
       "comments": {
         "patch": [
@@ -92,7 +92,7 @@
     },
     {
       "version": "0.2.1",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.2.1",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.2.1",
       "date": "Thu, 09 May 2024 14:32:12 GMT",
       "comments": {
         "patch": [
@@ -106,7 +106,7 @@
     },
     {
       "version": "0.2.0",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.2.0",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.2.0",
       "date": "Thu, 09 May 2024 14:25:59 GMT",
       "comments": {
         "minor": [
@@ -118,14 +118,14 @@
         ],
         "dependency": [
           {
-            "comment": "Updating dependency \"@hz9/eslint-config-airbnb\" to `0.1.1`"
+            "comment": "Updating dependency \"@hz-9/eslint-config-airbnb\" to `0.1.1`"
           }
         ]
       }
     },
     {
       "version": "0.1.0",
-      "tag": "@hz9/eslint-config-airbnb-ts_v0.1.0",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.1.0",
       "date": "Thu, 09 May 2024 14:17:00 GMT",
       "comments": {
         "minor": [

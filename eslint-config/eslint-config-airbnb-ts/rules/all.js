@@ -5,8 +5,8 @@
  * @LastEditTime : 2024-05-14 16:36:00
  */
 
-const { rules: hz9AirbnbImportsRules } = require('@hz9/eslint-config-airbnb/rules/imports')
-const { rules: hz9AirbnbStyleRules } = require('@hz9/eslint-config-airbnb/rules/style')
+const { rules: hz9AirbnbImportsRules } = require('@hz-9/eslint-config-airbnb/rules/imports')
+const { rules: hz9AirbnbStyleRules } = require('@hz-9/eslint-config-airbnb/rules/style')
 
 module.exports = {
   rules: {

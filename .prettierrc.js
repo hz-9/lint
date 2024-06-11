@@ -33,7 +33,7 @@ module.exports = {
   singleAttributePerLine: true,
 
   // imports
-  importOrder: ['^@core/(.*)$', '^@server/(.*)$', '^@ui/(.*)$', '^@hz9/(.*)$', '^@hz9-(.*)$', '^@/(.*)$', '^[./]'],
+  importOrder: ['^@core/(.*)$', '^@server/(.*)$', '^@ui/(.*)$', '^@hz-9/(.*)$', '^@hz-9-(.*)$', '^@/(.*)$', '^[./]'],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderGroupNamespaceSpecifiers: true,

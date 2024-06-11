@@ -1,5 +1,5 @@
 {
-  "name": "@hz9/eslint-config-airbnb-ts",
+  "name": "@hz-9/eslint-config-airbnb-ts",
   "version": "0.4.1",
   "description": "",
   "main": "./profile/index.js",
@@ -32,7 +32,7 @@
     "typescript": ">=5.0.0 <5.4.0"
   },
   "dependencies": {
-    "@hz9/eslint-config-airbnb": "workspace:*",
+    "@hz-9/eslint-config-airbnb": "workspace:*",
     "@rushstack/eslint-config": "^3.3.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",

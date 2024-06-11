@@ -1,4 +1,4 @@
-# Change Log - @hz9/eslint-config-airbnb
+# Change Log - @hz-9/eslint-config-airbnb
 
 This log was last generated on Mon, 13 May 2024 13:59:57 GMT and should not be manually modified.
 

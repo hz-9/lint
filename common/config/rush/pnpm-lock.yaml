@@ -23,7 +23,7 @@ importers:
 
   ../../eslint-config/eslint-config-airbnb-ts:
     dependencies:
-      '@hz9/eslint-config-airbnb':
+      '@hz-9/eslint-config-airbnb':
         specifier: workspace:*
         version: link:../eslint-config-airbnb
       '@rushstack/eslint-config':

@@ -7,7 +7,7 @@
  */
 
 module.exports = {
-  extends: ['@hz9/eslint-config-airbnb'].map(require.resolve),
+  extends: ['@hz-9/eslint-config-airbnb'].map(require.resolve),
 
   overrides: [
     {
