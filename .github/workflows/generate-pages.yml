@@ -27,17 +27,20 @@ concurrency:
 jobs:
   # Build job
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '18'
       - name: Install @hz-9/docs-build
         run: npm install -g @hz-9/docs-build
-      - run: pwd
-      - run: ls
       - name: Install dependencies
         run: node common/scripts/install-run-rush.js update
       - name: Build docs
@@ -46,3 +49,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs/.vuepress/src/.vuepress/dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
