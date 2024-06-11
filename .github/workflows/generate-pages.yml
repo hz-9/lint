@@ -34,8 +34,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-      - name: Install @hz9/docs-build
-        run: npm install -g @hz9/docs-build
+      - name: Install @hz-9/docs-build
+        run: npm install -g @hz-9/docs-build
       - run: pwd
       - run: ls
       - name: Install dependencies
