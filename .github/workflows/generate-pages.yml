@@ -39,10 +39,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+      - name: RushJS Helper
+        uses: advancedcsg-open/actions-rush@v1.6.2
       - name: Install @hz-9/docs-build
         run: npm install -g @hz-9/docs-build
       - name: Install dependencies
-        run: node common/scripts/install-run-rush.js update
+        run: rush update
       - name: Build docs
         run: docs-build --action build
       - name: Upload artifact
