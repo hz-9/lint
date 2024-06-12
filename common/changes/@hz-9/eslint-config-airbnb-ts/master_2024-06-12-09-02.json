@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz-9/eslint-config-airbnb-ts",
+      "comment": "docs: add `keywords` paramater in `package.json`",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@hz-9/eslint-config-airbnb-ts"
+}

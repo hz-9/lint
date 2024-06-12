@@ -2,6 +2,11 @@
   "name": "@hz-9/eslint-config-airbnb-ts",
   "version": "0.5.5",
   "description": "A eslint config for for 'hz-9' (TypeScript)",
+  "keywords": [
+    "eslint",
+    "airbnb",
+    "rushjs"
+  ],
   "bugs": {
     "url": "https://github.com/hz-9/lint/issues"
   },
