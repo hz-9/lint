@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz-9/eslint-config-airbnb",
+      "comment": "docs: change `repository` paramater in `package.json`",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@hz-9/eslint-config-airbnb"
+}

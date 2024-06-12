@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hz-9/lint",
+    "url": "https://github.com/hz-9/lint.git",
     "directory": "eslint-config/eslint-config-airbnb-ts"
   },
   "license": "MIT",
