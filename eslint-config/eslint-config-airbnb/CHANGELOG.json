@@ -2,6 +2,20 @@
   "name": "@hz-9/eslint-config-airbnb",
   "entries": [
     {
+      "version": "0.3.5",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.5",
+      "date": "Wed, 12 Jun 2024 08:39:00 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: change `repository` paramater in `package.json`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "b3e1290801cb2c673c6ac0ca015334d27b26205b"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.4",
       "tag": "@hz-9/eslint-config-airbnb_v0.3.4",
       "date": "Tue, 11 Jun 2024 11:56:35 GMT",
