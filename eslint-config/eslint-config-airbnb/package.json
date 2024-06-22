@@ -6,7 +6,7 @@
     "eslint",
     "airbnb"
   ],
-  "homepage": "https://hz-9.github.io/lint/read/eslint-config-airbnb.html",
+  "homepage": "https://hz-9.github.io/lint/guide/eslint-config-airbnb",
   "bugs": {
     "url": "https://github.com/hz-9/lint/issues"
   },
@@ -31,6 +31,7 @@
     "profile",
     "rules",
     "index.js",
+    "LICENSE",
     "CHANGELOG.md",
     "README.md"
   ],

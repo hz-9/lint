@@ -9,8 +9,6 @@ A [eslint] config for for 'hz-9' (JavaScript).
 [npm-license-url]: https://img.shields.io/npm/l/@hz-9/eslint-config-airbnb
 [npm-downloads-url]: https://img.shields.io/npm/d18m/@hz-9/eslint-config-airbnb
 
-> Please visit [@hz-9/eslint-config-airbnb](https://hz-9.github.io/lint/guide/eslint-config-airbnb) for detailed documentation.
-
 ## Installation
 
 ``` bash
