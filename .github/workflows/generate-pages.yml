@@ -43,7 +43,7 @@ jobs:
       - name: Install @hz-9/docs-build
         run: npm install -g @hz-9/docs-build
       - name: Build docs
-        run: docs-build --action build --base-url '/lint/'
+        run: docs-build --action build --base-url '/lint/' --lang en-US,zh-CN
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
