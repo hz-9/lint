@@ -1,5 +1,5 @@
 # HZ 9 Lint
 
-## Intruction
+## Introduction
 
-A JavaScript 'Lint' extension and configuration collection.
+This is a collection of JavaScript 'Lint' extensions and configurations.
