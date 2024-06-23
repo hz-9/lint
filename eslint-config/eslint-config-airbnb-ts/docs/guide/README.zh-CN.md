@@ -1,6 +1,6 @@
 # @hz-9/eslint-config-airbnb-ts
 
-A [eslint] config for for 'hz-9' (TypeScript).
+A [eslint] config for 'hz-9' (TypeScript).
 
 ![NPM Version][npm-version-url] ![NPM License][npm-license-url] ![NPM Downloads][npm-downloads-url]
 
@@ -9,19 +9,17 @@ A [eslint] config for for 'hz-9' (TypeScript).
 [npm-license-url]: https://img.shields.io/npm/l/@hz-9/eslint-config-airbnb-ts
 [npm-downloads-url]: https://img.shields.io/npm/d18m/@hz-9/eslint-config-airbnb-ts
 
-[English Document](https://hz-9.github.io/lint/guide/eslint-config-airbnb-ts/) | [中文文档](https://hz-9.github.io/lint/zh-CN/guide/eslint-config-airbnb-ts/)
+## 安装
 
-## Installation
-
-To install the `@hz-9/eslint-config-airbnb-ts` package, run the following command:
+要安装 `@hz-9/eslint-config-airbnb-ts` 包，请运行以下命令：
 
 ```bash
 npm install @hz-9/eslint-config-airbnb-ts --save-dev
 ```
 
-## Usage
+## 使用
 
-To use this configuration, add the following code to your `.eslintrc.js` file:
+要使用此配置，请将以下代码添加到您的 `.eslintrc.js` 文件中：
 
 ```javascript
 module.exports = {
@@ -34,7 +32,7 @@ module.exports = {
 }
 ```
 
-After that, you can run the ESLint fix command to automatically fix linting issues:
+之后，您可以运行 ESLint 修复命令来自动修复 linting 问题：
 
 ```bash
 eslint --fix .

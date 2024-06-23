@@ -9,19 +9,21 @@ A [eslint] config for for 'hz-9' (JavaScript).
 [npm-license-url]: https://img.shields.io/npm/l/@hz-9/eslint-config-airbnb
 [npm-downloads-url]: https://img.shields.io/npm/d18m/@hz-9/eslint-config-airbnb
 
-> Please visit [@hz-9/eslint-config-airbnb](https://hz-9.github.io/lint/guide/eslint-config-airbnb) for detailed documentation.
+[English Document](https://hz-9.github.io/lint/guide/eslint-config-airbnb/) | [中文文档](https://hz-9.github.io/lint/zh-CN/guide/eslint-config-airbnb/)
 
 ## Installation
 
-``` bash
+To install the `@hz-9/eslint-config-airbnb` package, run the following command:
+
+```bash
 npm install @hz-9/eslint-config-airbnb --save-dev
 ```
 
 ## Usage
 
-Add to `.eslintrc.js`:
+To use this configuration, add the following code to your `.eslintrc.js` file:
 
-``` js
+```javascript
 module.exports = {
   extends: [
     '@hz-9/eslint-config-airbnb'
@@ -29,14 +31,8 @@ module.exports = {
 }
 ```
 
-Then run
+After that, you can run the ESLint fix command to automatically fix linting issues:
 
-``` bash
+```bash
 eslint --fix .
 ```
-
-## PeerDependencies versions
-
-### eslint
-
-Now all `@hz-9/*` use the `eslint@8.2.0`.

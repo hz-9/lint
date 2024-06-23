@@ -1,6 +1,6 @@
 # @hz-9/eslint-config-airbnb-ts
 
-A [eslint] config for for 'hz-9' (TypeScript).
+A [eslint] config for 'hz-9' (TypeScript).
 
 ![NPM Version][npm-version-url] ![NPM License][npm-license-url] ![NPM Downloads][npm-downloads-url]
 
@@ -11,15 +11,17 @@ A [eslint] config for for 'hz-9' (TypeScript).
 
 ## Installation
 
-``` bash
+To install the `@hz-9/eslint-config-airbnb-ts` package, run the following command:
+
+```bash
 npm install @hz-9/eslint-config-airbnb-ts --save-dev
 ```
 
 ## Usage
 
-Add to `.eslintrc.js`:
+To use this configuration, add the following code to your `.eslintrc.js` file:
 
-``` js
+```javascript
 module.exports = {
   extends: [
     '@hz-9/eslint-config-airbnb-ts/node'
@@ -30,18 +32,8 @@ module.exports = {
 }
 ```
 
-Then run
+After that, you can run the ESLint fix command to automatically fix linting issues:
 
-``` bash
+```bash
 eslint --fix .
 ```
-
-## PeerDependencies versions
-
-### typescript
-
-Now all `@hz-9/*` use the `typescript@5.3.3`, set `>=5.0.0 <5.4.0` for better compatibility.
-
-### eslint
-
-Now all `@hz-9/*` use the `eslint@8.2.0`.
