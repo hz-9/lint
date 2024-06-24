@@ -1,6 +1,13 @@
 # Change Log - @hz-9/eslint-config-airbnb
 
-This log was last generated on Sun, 23 Jun 2024 16:03:28 GMT and should not be manually modified.
+This log was last generated on Mon, 24 Jun 2024 06:00:52 GMT and should not be manually modified.
+
+## 0.3.10
+Mon, 24 Jun 2024 06:00:52 GMT
+
+### Patches
+
+- docs: updated the badge in `README.md`
 
 ## 0.3.9
 Sun, 23 Jun 2024 16:03:28 GMT

@@ -2,6 +2,20 @@
   "name": "@hz-9/eslint-config-airbnb",
   "entries": [
     {
+      "version": "0.3.10",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.10",
+      "date": "Mon, 24 Jun 2024 06:00:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: updated the badge in `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "8cfd7bea584c5ee176d5f5d5e3739cf63a2a96c0"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.9",
       "tag": "@hz-9/eslint-config-airbnb_v0.3.9",
       "date": "Sun, 23 Jun 2024 16:03:28 GMT",
