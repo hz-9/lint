@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz-9/eslint-config-airbnb-ts",
+      "comment": "docs: updated the badge in `README.md`",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@hz-9/eslint-config-airbnb-ts"
+}
