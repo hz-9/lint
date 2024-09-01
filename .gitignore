@@ -62,13 +62,19 @@ jspm_packages/
 common/deploy/
 common/temp/
 common/autoinstallers/*/.npmrc
-
 **/.rush/temp/
 
-# docs
-/docs/.vuepress
+# Docs
+/docs
+**/docs/.markdowns
+**/docs/.vuepress
 
 # Heft
 .heft
 
-temp
+# Repo build output
+/eslint-config/*/dist
+/eslint-config/*/lib
+
+# Repo temp files
+/eslint-config/*/temp
