@@ -215,7 +215,7 @@
      * your PR branch, and in this situation "rush change" will also automatically invoke "git fetch"
      * to retrieve the latest activity for the remote main branch.
      */
-    "url": "git@gitee.com:heavenzhen999/hz9-lint.git",
+    "url": "git@github.com:hz-9/lint.git",
 
     /**
      * The default branch name. This tells "rush change" which remote branch to compare against.

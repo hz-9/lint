@@ -42,3 +42,21 @@ After that, you can run the ESLint fix command to automatically fix linting issu
 ```bash
 eslint --fix .
 ```
+
+## Q & A
+
+## You have used a rule which requires parserServices to be generated. You must therefore provide a value for the "parserOptions.project" property for @typescript-eslint/parser
+
+You can set `parseOptions.project` params.
+
+```javascript
+module.exports = {
+  extends: [
+    '@hz-9/eslint-config-airbnb-ts/node'
+  ],
+  parserOptions: {
+    project: 'tsconfig.json',
+    tsconfigRootDir: __dirname,
+  },
+}
+```
