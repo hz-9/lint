@@ -2,6 +2,20 @@
   "name": "@hz-9/eslint-config-airbnb-ts",
   "entries": [
     {
+      "version": "0.6.0",
+      "tag": "@hz-9/eslint-config-airbnb-ts_v0.6.0",
+      "date": "Wed, 12 Mar 2025 07:37:01 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: add special rules for unit tests",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "a7b204728a681c2035f96699667ace2fba643d7a"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.5.11",
       "tag": "@hz-9/eslint-config-airbnb-ts_v0.5.11",
       "date": "Mon, 07 Oct 2024 16:58:51 GMT",

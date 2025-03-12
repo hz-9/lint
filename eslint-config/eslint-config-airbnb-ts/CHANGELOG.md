@@ -1,6 +1,13 @@
 # Change Log - @hz-9/eslint-config-airbnb-ts
 
-This log was last generated on Mon, 07 Oct 2024 16:58:51 GMT and should not be manually modified.
+This log was last generated on Wed, 12 Mar 2025 07:37:01 GMT and should not be manually modified.
+
+## 0.6.0
+Wed, 12 Mar 2025 07:37:01 GMT
+
+### Minor changes
+
+- feat: add special rules for unit tests
 
 ## 0.5.11
 Mon, 07 Oct 2024 16:58:51 GMT
