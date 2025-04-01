@@ -1,0 +1,50 @@
+{
+  "name": "@hz-9/prettier-config",
+  "version": "0.0.0",
+  "description": "A prettier config for for 'hz-9' (JavaScript)",
+  "keywords": [
+    "prettier"
+  ],
+  "homepage": "https://hz-9.github.io/lint/guide/prettier-config",
+  "bugs": {
+    "url": "https://github.com/hz-9/lint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hz-9/lint.git",
+    "directory": "prettier-config/prettier-config"
+  },
+  "license": "MIT",
+  "author": "Chen Zhen <heavenzhen999@163.com>",
+  "exports": {
+    ".": "./src/index.js",
+    "./service/common": "./src/service/common.js",
+    "./service/sort-imports": "./src/service/sort-imports.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./profile/index.js",
+  "files": [
+    "src",
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": " "
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

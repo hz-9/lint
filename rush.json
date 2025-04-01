@@ -398,6 +398,12 @@
       "packageName": "@hz-9/eslint-config-airbnb-ts",
       "projectFolder": "eslint-config/eslint-config-airbnb-ts",
       "shouldPublish": true
+    },
+
+    {
+      "packageName": "@hz-9/prettier-config",
+      "projectFolder": "prettier-config/prettier-config",
+      "shouldPublish": true
     }
   ]
 }
