@@ -1,6 +1,13 @@
 # Change Log - @hz-9/eslint-config-airbnb
 
-This log was last generated on Tue, 01 Apr 2025 16:19:21 GMT and should not be manually modified.
+This log was last generated on Tue, 01 Apr 2025 16:45:46 GMT and should not be manually modified.
+
+## 0.4.0
+Tue, 01 Apr 2025 16:45:46 GMT
+
+### Minor changes
+
+- feat: add profiles for `no-import`
 
 ## 0.3.11
 Tue, 01 Apr 2025 16:19:21 GMT

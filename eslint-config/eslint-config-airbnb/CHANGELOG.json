@@ -2,6 +2,20 @@
   "name": "@hz-9/eslint-config-airbnb",
   "entries": [
     {
+      "version": "0.4.0",
+      "tag": "@hz-9/eslint-config-airbnb_v0.4.0",
+      "date": "Tue, 01 Apr 2025 16:45:46 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: add profiles for `no-import`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "1de0c78901e60c4c6ef9f94d3e58ddca1ce0d867"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.11",
       "tag": "@hz-9/eslint-config-airbnb_v0.3.11",
       "date": "Tue, 01 Apr 2025 16:19:21 GMT",
