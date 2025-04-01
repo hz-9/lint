@@ -1,0 +1,19 @@
+{
+  "name": "@hz-9/prettier-config",
+  "entries": [
+    {
+      "version": "0.1.0",
+      "tag": "@hz-9/prettier-config_v0.1.0",
+      "date": "Tue, 01 Apr 2025 10:55:04 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat(prettier-config): first commit",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "43431b1024ad2a6e12f42f5d96d7897bdc950a74"
+          }
+        ]
+      }
+    }
+  ]
+}
