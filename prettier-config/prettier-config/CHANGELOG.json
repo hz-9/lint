@@ -2,6 +2,25 @@
   "name": "@hz-9/prettier-config",
   "entries": [
     {
+      "version": "0.1.1",
+      "tag": "@hz-9/prettier-config_v0.1.1",
+      "date": "Tue, 01 Apr 2025 16:19:21 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: repairing directory structure",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "eb55bb73df0c5c4db68c058f9819e30bf7888930"
+          },
+          {
+            "comment": "docs: change `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "eb55bb73df0c5c4db68c058f9819e30bf7888930"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.0",
       "tag": "@hz-9/prettier-config_v0.1.0",
       "date": "Tue, 01 Apr 2025 10:55:04 GMT",
