@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz-9/eslint-config-airbnb",
+      "comment": "feat: add profiles for `no-import`",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@hz-9/eslint-config-airbnb"
+}

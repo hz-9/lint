@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@hz-9/eslint-config-airbnb-ts",
+      "comment": "chore: change `.eslintrc.js`",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@hz-9/eslint-config-airbnb-ts"
+}

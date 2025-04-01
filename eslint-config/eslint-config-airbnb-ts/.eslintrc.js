@@ -2,9 +2,9 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 17:25:31
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-09 18:11:12
+ * @LastEditTime : 2025-04-02 00:41:36
  */
 
 module.exports = {
-  extends: ['./profile/node.js'].map(require.resolve),
+  extends: ['@hz-9/eslint-config-airbnb/profile/node-no-import'].map(require.resolve),
 }

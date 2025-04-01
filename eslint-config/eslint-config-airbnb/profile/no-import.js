@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 17:00:00
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2025-04-02 00:33:51
+ * @LastEditTime : 2025-04-02 00:33:46
  * @Description  : 整合配置规则。
  */
 
@@ -11,7 +11,7 @@ module.exports = {
     '../rules/best-practices',
     '../rules/errors',
     '../rules/es6',
-    '../rules/imports',
+    // '../rules/imports',
     '../rules/node',
     '../rules/strict',
     '../rules/style',

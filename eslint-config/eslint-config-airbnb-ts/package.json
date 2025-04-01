@@ -40,7 +40,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": " "
+    "build": " ",
+    "lint": "eslint --fix ./profile/**/*.js"
   },
   "dependencies": {
     "@hz-9/eslint-config-airbnb": "workspace:*",

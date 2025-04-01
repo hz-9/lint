@@ -2,7 +2,7 @@
  * @Author       : Chen Zhen
  * @Date         : 2024-05-09 17:00:00
  * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-11 21:19:44
+ * @LastEditTime : 2025-04-02 00:38:35
  * @Description  : 继承 eslint-config-airbnb-base/rules/style.js 并重写。
  */
 
@@ -81,5 +81,10 @@ module.exports = {
     // Enforce location of semicolons
     // 强制分号的位置
     'semi-style': 'off',
+
+    // https://eslint.org/docs/latest/rules/indent/
+    // Enforce consistent indentation
+    // 强制一致的缩进
+    indent: 'off',
   },
 }

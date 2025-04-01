@@ -17,25 +17,29 @@
   "license": "MIT",
   "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
-    ".": "./src/index.js",
-    "./service-common": "./src/service/common.js",
-    "./service-sort-imports": "./src/service/sort-imports.js"
+    ".": "./profile/index.js",
+    "./service-common": "./profile/service/common.js",
+    "./service-sort-imports": "./profile/service/sort-imports.js"
   },
   "main": "./profile/index.js",
   "files": [
-    "src",
+    "profile",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
   ],
   "scripts": {
-    "build": " "
+    "build": " ",
+    "lint": "eslint --fix ./src/**/*.js"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@hz-9/eslint-config-airbnb": "workspace:*",
+    "eslint": "^8.2.0"
+  },
   "peerDependencies": {
-    "prettier": "^3.3.3",
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier": "^3.3.3"
   },
   "peerDependenciesMeta": {
     "@trivago/prettier-plugin-sort-imports": {

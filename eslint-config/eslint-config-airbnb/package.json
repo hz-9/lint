@@ -19,10 +19,13 @@
   "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
     ".": "./profile/index.js",
-    "./browser": "./profile/browser.js",
-    "./index": "./profile/index.js",
     "./index.js": "./profile/index.js",
+    "./index": "./profile/index.js",
+    "./browser": "./profile/browser.js",
     "./node": "./profile/node.js",
+    "./no-import": "./profile/no-import.js",
+    "./browser-no-import": "./profile/browser-no-import.js",
+    "./node-no-import": "./profile/node-no-import.js",
     "./package.json": "./package.json",
     "./*": "./*.js"
   },
@@ -36,7 +39,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": " "
+    "build": " ",
+    "lint": "eslint --fix ./{profile,rules}/**/*.js"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",

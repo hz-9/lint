@@ -2,7 +2,7 @@ const common = require('./common')
 
 let prettierPluginSortImportsIndexPath = null
 try {
-  prettierPluginSortImportsIndexPath = require.resolve('@trivago/prettier-plugin-sort-imports2')
+  prettierPluginSortImportsIndexPath = require.resolve('@trivago/prettier-plugin-sort-imports')
 } catch (error) {
   console.error()
   console.error(
