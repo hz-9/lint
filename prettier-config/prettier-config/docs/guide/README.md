@@ -12,8 +12,6 @@ A [prettier] config for 'hz-9'.
 [node-version-url]: https://badgen.net/npm/node/@hz-9/prettier-config
 [last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint
 
-[Document](https://hz-9.github.io/lint/guide/prettier-config/) | [文档](https://hz-9.github.io/lint/zh-CN/guide/prettier-config/)
-
 ## Installation
 
 To install the `@hz-9/prettier-config` package, run the following command:
@@ -37,3 +35,11 @@ After that, you can run the formatting command to adjust the file format:
 ```bash
 prettier --write .
 ```
+
+## All Rules
+
+| Name | Description |
+| --- | --- |
+| index | Default configuration |
+| service-common | Default rules for the server |
+| service-sort-imports | Default rules for the server + rules for sorting imports |

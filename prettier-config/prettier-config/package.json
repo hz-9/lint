@@ -1,7 +1,7 @@
 {
   "name": "@hz-9/prettier-config",
   "version": "0.1.0",
-  "description": "A prettier config for for 'hz-9' (JavaScript)",
+  "description": "A prettier config for 'hz-9' (JavaScript)",
   "keywords": [
     "prettier"
   ],
@@ -18,9 +18,8 @@
   "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
     ".": "./src/index.js",
-    "./service/common": "./src/service/common.js",
-    "./service/sort-imports": "./src/service/sort-imports.js",
-    "./package.json": "./package.json"
+    "./service-common": "./src/service/common.js",
+    "./service-sort-imports": "./src/service/sort-imports.js"
   },
   "main": "./profile/index.js",
   "files": [
@@ -32,14 +31,16 @@
   "scripts": {
     "build": " "
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "prettier": "^3.3.3",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0"
   },
-  "devDependencies": {
-    "prettier": "^3.3.3"
-  },
-  "peerDependencies": {
-    "prettier": "^3.3.3"
+  "peerDependenciesMeta": {
+    "@trivago/prettier-plugin-sort-imports": {
+      "optional": true
+    }
   },
   "engines": {
     "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"

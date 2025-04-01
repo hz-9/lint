@@ -1,6 +1,6 @@
 # @hz-9/eslint-config-airbnb-ts
 
-A [eslint] config for 'hz-9' (TypeScript).
+一个适用于 'hz-9'（TypeScript）的 [eslint] 配置。
 
 ![NPM 版本][npm-version-url] ![NPM 许可证][npm-license-url] ![NPM 下载量][npm-downloads-url]
 <br /> ![Node 版本][node-version-url] ![最后提交][last-commit-url]

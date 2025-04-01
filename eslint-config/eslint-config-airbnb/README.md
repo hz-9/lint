@@ -1,6 +1,6 @@
 # @hz-9/eslint-config-airbnb
 
-A [eslint] config for for 'hz-9' (JavaScript).
+A [eslint] config for 'hz-9' (JavaScript).
 
 ![NPM Version][npm-version-url] ![NPM License][npm-license-url] ![NPM Downloads][npm-downloads-url]
 <br /> ![Node Version][node-version-url] ![Last Commit][last-commit-url]

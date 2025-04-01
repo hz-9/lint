@@ -75,6 +75,9 @@ common/autoinstallers/*/.npmrc
 # Repo build output
 /eslint-config/*/dist
 /eslint-config/*/lib
+/prettier-config/*/dist
+/prettier-config/*/lib
 
 # Repo temp files
 /eslint-config/*/temp
+/prettier-config/*/temp
